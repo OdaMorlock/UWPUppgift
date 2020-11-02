@@ -11,6 +11,7 @@
     <Grid Background="DarkBlue">
         <StackPanel>
            
+            
             <TextBlock x:Name="FileContent" HorizontalAlignment="Center" FontSize="20" TextWrapping="Wrap" Margin="15"/>
 
             <TextBlock x:Name="OutputTextBlock" Margin="20"/>
