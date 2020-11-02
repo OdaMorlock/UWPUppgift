@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="UWPUppgift.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPUppgift"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DarkBlue">
+        <StackPanel>
+           
+            <TextBlock x:Name="FileContent" HorizontalAlignment="Center" FontSize="20" TextWrapping="Wrap" Margin="15"/>
+
+            <TextBlock x:Name="OutputTextBlock" Margin="20"/>
+
+
+            <Button x:Name="TextFile" Click="TextFile_Click" Content="TextFile" Background="Aqua" Margin="0,50,100,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Button x:Name="JsonFile" Click="JsonFile_Click" Content="JsonFile" Background="Aqua" Margin="0,50,100,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Button x:Name="XmlFile" Click="XmlFile_Click" Content="XmlFile" Background="Aqua" Margin="0,50,100,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Button x:Name="CsvFile" Click="CsvFile_Click" Content="CsvFile" Background="Aqua" Margin="0,50,100,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
